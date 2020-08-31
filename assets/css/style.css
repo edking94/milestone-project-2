@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  background-color: grey;
-  color: white;
 }
 
 #topleft {
@@ -42,4 +40,16 @@ body {
 #turn {
 }
 .text2 {
+}
+
+.my-container {
+    border: 1px solid green;
+
+}
+.my-row{
+border: 3px solid red;
+}
+
+.my-col {
+border: 3px dotted blue;
 }
