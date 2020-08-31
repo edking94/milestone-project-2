@@ -3,37 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Simon Game</title>
     <!--Insert Audio Files Below-->
   </head>
 
   <body>
     <div class="container my-container">
-      <div class="row justify-content-center my-row">
-        <div class="col-4 my-col">
-          <div id="topleft">topleft</div>
-        </div>
-      </div>
-      <div class="col-4 my-col">
-        <div id="topright">topright</div>
-      </div>
       <div class="row my-row">
-        <div class="col my-col">
-          <div id="middleleft">middleleft</div>
+      <div class="col-xs-6">top left</div>
+      <div class="col-xs-6">top right</div>
         </div>
-        <div class="col my-col">
-          <div id="middleright">middleright</div></div>
-      </div>
-      <div class="row my-row">
-        <div class="col my-col">
-          <div id="bottommiddle">bottommiddle</div>
+        <div class="row justify-content-around my-row">
+      <div class="col-xs-6">middle left</div>
+      <div class="col-xs-6">middle right</div>
         </div>
-      </div>
       <div id="control-panel">
         <div id="title" class="">SIMON!</div>
         <div id="switches">
@@ -48,6 +35,4 @@
     </div>
     <script src="js/index.js"></script>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
