@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Simon Game</title>
+    <!--Insert Audio Files Below-->
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Simon Game</title>
-	<!--Insert Audio Files Below-->
-</head>
-
-<body>
-	<div class="row">
-		<div id="topleft"></div>
-		<div id="topright"></div>
-	</div>
-	<div class="row">
-		<div id="middleleft"></div>
-		<div id="middleright"></div>
-	</div>
-	<div class="row">
-		<div id="bottommiddle">
-		</div>
-	</div>
-	<div id="control-panel">
-		<div id="title" class="">SIMON!</div>
-		<div id="switches">
-			<button class="button" id="practice-game">Practice</button>
-			<button class="button" id="real-game">Game on!</button>
-		</div>
-		<div id="turn"></div>
-		<div class="text2">
-			Score
-		</div>
-	</div>
-	<script src="js/index.js"></script>
-
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="topleft">topleft</div>
+        </div>
+      </div>
+      <div class="col">
+        <div id="topright">topright</div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="middleleft">middleleft</div>
+        </div>
+        <div class="col">
+          <div id="middleright">middleright</div></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="bottommiddle">bottommiddle</div>
+        </div>
+      </div>
+      <div id="control-panel">
+        <div id="title" class="">SIMON!</div>
+        <div id="switches">
+          <button class="button" id="practice-game">Practice</button>
+          <button class="button" id="real-game">Game on!</button>
+        </div>
+        <div id="turn"></div>
+        <div class="text2">
+          Score
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>
