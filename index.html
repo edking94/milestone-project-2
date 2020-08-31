@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Simon Game</title>
-    <!--Insert Audio Files Below-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Simon Game</title>
+	<!--Insert Audio Files Below-->
 </head>
+
 <body>
-    <div id="topleft"></div>
-    <div id="topright"></div>
-    <div id="bottomleft"></div>
-    <div id="bottomright"></div>
-    <div id="control-panel">
-      <div id="title" class="">SIMON!</div>
-      <div id="switches">
-        <button class="button" id="practice-game">Practice</button>
-        <button class="button" id="real-game">Game on!</button>
-      </div>
-      <div id="turn"></div>
-      <div class="text2">
-        Score
-      </div>
-    </div>
-  <script  src="js/index.js"></script>
+	<div class="row">
+		<div id="topleft"></div>
+		<div id="topright"></div>
+	</div>
+	<div class="row">
+		<div id="middleleft"></div>
+		<div id="middleright"></div>
+	</div>
+	<div class="row">
+		<div id="bottommiddle">
+		</div>
+	</div>
+	<div id="control-panel">
+		<div id="title" class="">SIMON!</div>
+		<div id="switches">
+			<button class="button" id="practice-game">Practice</button>
+			<button class="button" id="real-game">Game on!</button>
+		</div>
+		<div id="turn"></div>
+		<div class="text2">
+			Score
+		</div>
+	</div>
+	<script src="js/index.js"></script>
 
 </body>
+
 </html>
